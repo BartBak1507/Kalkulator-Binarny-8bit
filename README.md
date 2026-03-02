@@ -73,24 +73,10 @@ Projekt nie wymaga instalacji ani dodatkowych narzędzi.
 Kalkulator-Binarny-8bit/
 │
 ├── index.html
-├── style.css
 ├── script.js
 ├── screenshot.png
 └── README.md
 ```
-
----
-
-## 🚀 Możliwe ulepszenia
-
-- Obsługa odejmowania
-- Obsługa mnożenia
-- Obsługa systemu szesnastkowego
-- Historia działań
-- Wykrywanie przepełnienia (overflow)
-- Wersja responsywna (mobile)
-
----
 
 ## 👨‍💻 Autor
 
