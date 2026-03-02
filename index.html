@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator binarny</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+
+<header class="bg-secondary text-white text-center py-3 mb-4">
+    <h1 class="h3 mb-0">Kalkulator binarny</h1>
+</header>
+
+<div class="container mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-5">
+
+            <div class="card shadow-sm" aria-labelledby="naglowekKalkulatora">
+                <div class="card-header text-center">
+                    <h2 id="naglowekKalkulatora" class="h5 mb-1">Dodawanie liczb binarnych (8 bitów)</h2>
+                    <small class="text-muted">Kliknij w bit, aby zmienić liczbę</small>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="row mb-2">
+                        <div class="col-auto"></div>
+                        <div class="col text-end">
+                            <div class="d-inline-flex gap-2 flex-wrap">
+                                <button class="btn btn-danger" aria-label="Bit A7">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A6">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A5">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A4">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A3">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A2">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A1">0</button>
+                                <button class="btn btn-danger" aria-label="Bit A0">0</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center mb-3">
+                        <div class="col-auto fs-2 fw-bold text-start">+</div>
+                        <div class="col text-end">
+                            <div class="d-inline-flex gap-2 flex-wrap">
+                                <button class="btn btn-danger" aria-label="Bit B7">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B6">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B5">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B4">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B3">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B2">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B1">0</button>
+                                <button class="btn btn-danger" aria-label="Bit B0">0</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pt-3" aria-live="polite">
+                        <div class="row">
+                            <div class="col-auto"></div>
+                            <div class="col text-end">
+                                <div class="d-inline-flex gap-2 flex-wrap">
+                                    <button class="btn btn-primary" aria-label="Bit przeniesienia Cout" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S7" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S6" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S5" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S4" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S3" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S2" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S1" disabled>0</button>
+                                    <button class="btn btn-primary" aria-label="Bit S0" disabled>0</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-secondary text-center text-white py-2 mt-auto">
+    <small>WEB PROJEKT by BB</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
