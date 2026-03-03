@@ -52,7 +52,7 @@ Projekt nie wymaga instalacji ani dodatkowych narzędzi.
 
 ## 📷 Podgląd aplikacji
 
-![Bubble Sort Generator](screenshot.png)
+![Kalkulator Binarny](screenshot.png)
 
 ---
 
